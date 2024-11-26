@@ -7,11 +7,11 @@ netty = "4.1.110.Final"
 gson = "2.10.1"
 guava = "32.1.2-jre"
 
-velocity = "3.3.0-SNAPSHOT"
+velocity = "3.4.0-SNAPSHOT"
 bungeecord = "1.21-R0.1-SNAPSHOT"
 
 packetevents = "2.5.0"
-protocolize = "2.4.0"
+protocolize = "2.4.2"
 vpacketevents = "1.1.0"
 
 adventure = "4.17.0"
@@ -29,10 +29,8 @@ gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
 
 velocity-api = { module = "com.velocitypowered:velocity-api", version.ref = "velocity" }
-velocity-proxy = { module = "com.velocitypowered:velocity-proxy", version.ref = "velocity" }
 
 bungeecord-api = { module = "net.md-5:bungeecord-api", version.ref = "bungeecord" }
-bungeecord-proxy = { module = "net.md-5:bungeecord-proxy", version.ref = "bungeecord" }
 
 packetevents-api = { module = "com.github.retrooper:packetevents-api", version.ref = "packetevents" }
 packetevents-bungeecord = { module = "com.github.retrooper:packetevents-bungeecord", version.ref = "packetevents" }

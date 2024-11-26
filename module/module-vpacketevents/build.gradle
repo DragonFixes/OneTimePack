@@ -1,5 +1,6 @@
 repositories {
-    maven { url 'https://repo.papermc.io/repository/maven-public/' }
+//    maven { url 'https://repo.papermc.io/repository/maven-public/' }
+    maven { url 'https://repo.papermc.io/repository/maven-snapshots/' }
 }
 
 dependencies {
@@ -8,4 +9,5 @@ dependencies {
     }
     compileOnly libs.netty.transport
     compileOnly libs.velocity.api
+    compileOnly files("$rootProject.projectDir/libs/velocity-3.4.0-SNAPSHOT.jar")
 }

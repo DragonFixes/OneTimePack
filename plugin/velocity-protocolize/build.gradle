@@ -17,6 +17,8 @@ dependencies {
     implementation project(':module:module-protocolize')
     compileOnly libs.velocity.api
     annotationProcessor libs.velocity.api
+    compileOnly files("$rootProject.projectDir/libs/velocity-3.4.0-SNAPSHOT.jar")
+    annotationProcessor files("$rootProject.projectDir/libs/velocity-3.4.0-SNAPSHOT.jar")
     compileOnly libs.protocolize.api
     compileOnly libs.protocolize.velocity
 }
